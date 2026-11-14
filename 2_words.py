@@ -1,0 +1,6 @@
+sentence = input('请输入一句英文:')
+words_list = sentence.split()
+count = len(words_list)
+print('单词个数是：', count)
+result = '|'.join(words_list)
+print('用|连接的结果是：', result)
